@@ -338,8 +338,8 @@ class PCS(PCSBase):
 
 
 if __name__ == '__main__':
-    username = "18382321517"
-    password = "901211feifei"
+    username = "XXX"
+    password = "XXX"
     pcs = PCS(username, password)
     res = pcs.upload("/hello/word.js", open("login.js", 'rb').read(), callback=pcs.progressbar)
     print(res.content.decode('utf-8'))
